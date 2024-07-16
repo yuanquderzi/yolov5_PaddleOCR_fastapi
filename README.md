@@ -1,0 +1,2 @@
+# yolov5_PaddleOCR_fastapi
+使用FastAPI构建的燃气表表号检测识别后端服务。首先利用yolov5来定位燃气表条形码区域，然后使用PaddleOCR提取条形码区域内的燃气表表号。yolov5已在燃气表图像上进行了定制化训练，检测识别准确率98%。
